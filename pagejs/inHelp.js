@@ -70,7 +70,7 @@ for(var i=0;i<divs.length;i++){
 }
 var right=__('div').clone().appendTo(body_resize);	right.attr('class','right');
 right.append('<h2>Features<br /><span>What\'s inside NCTU CSS+</span></h2><ul> \
-			 <li><a href="https://github.com/Spiderpowa/NCTUCSSPlus">Fork me on Github</a></li> \
+			 <li><a href="https://github.com/Spiderpowa/NCTUCSSPlus" target="_blank">Fork me on Github</a></li> \
 			 <li><a href="#">美化選課系統介面</a></li> \
 			 <li><a href="#">跳過繁瑣的登入畫面</a></li> \
 			 <li><a href="#">問卷一鍵填寫</a></li> \
