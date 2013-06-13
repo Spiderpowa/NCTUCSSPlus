@@ -1,0 +1,82 @@
+﻿/* 
+	Blue Dream
+	Written by Teylor Feliz  http://www.admixweb.com
+*/
+
+
+body{
+	 font-family:"微軟正黑體", "Arial Unicode MS", sans-serif;
+}
+table {
+ background:#D3E4E5;
+ border:1px solid gray;
+ border-collapse:collapse;
+ color:#fff;
+ font-weight:normal;
+ font-size:12px;
+ width:820px;
+ margin:10px auto;
+}
+caption { border:1px solid #5C443A;
+ color:#5C443A;
+ font-size:15px;
+ font-weight:bold;
+ padding:6px 4px 8px 0px;
+ text-align:center;
+ text-transform:uppercase;
+}
+td, th { color:#363636;
+ padding:.4em;
+ border:1px solid gray;
+}
+/*tr { border:1px solid gray;
+}*/
+thead th, tfoot th { background:#5C443A;
+ color:#FFFFFF;
+ font-size:14px;
+ padding:3px 10px 3px 10px;
+ text-align:left;
+ text-transform:uppercase;
+}
+tbody td a,tbody td a:visited  { color:#03476F;
+ text-decoration:none;
+ font-weight:bold;
+}
+tbody td a:hover { text-decoration:underline;
+}
+tbody th a { color:#363636;
+ font-weight:normal;
+ text-decoration:none;
+}
+tbody th a:hover { color:#363636;
+}
+tbody td a.link { /*background-image:url('bullet_blue.png');*/
+ background-position:left center;
+ background-repeat:no-repeat;
+ color:#03476F;
+ padding-left:15px;
+}
+tbody td a:visited.link { /*background-image:url('bullet_blue.png');*/
+ background-position:left center;
+ background-repeat:no-repeat;
+ color:#03476F;
+ padding-left:15px;
+}
+tbody td .nolink { /*background-image:url('bullet_white.png');*/
+ background-position:left center;
+ background-repeat:no-repeat;
+ padding-left:15px;
+}
+tbody th, tbody td { text-align:left;
+ vertical-align:top;
+}
+tfoot td { background:#5C443A;
+ color:#FFFFFF;
+ padding-top:3px;
+}
+.odd { background:#fff;
+}
+tbody tr.hover { background:#99BCBF;
+/* border:1px solid #03476F;*/
+ color:#000000;
+}
