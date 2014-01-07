@@ -47,7 +47,10 @@ if(frame.length){//index
 		});
 		lottery.val('開獎模式');
 		lottery.addClass('red');
+    lottery.attr('title', '"查詢選課狀態"將會自動重新整理，讓你輕鬆看選課開獎！');
 		submitinput.parent().after($('<p>').append(lottery));
+    
+    lottery.tooltip();
 		
 		//recover corse list
 		//var list = $('<tr><td align="middle"><a href="http://timetable.nctu.edu.tw/" target="_blank">課程時間表</a> <a href="http://cos.adm.nctu.edu.tw/Course/History/index.asp" target="_blank">(舊版)</a></td></tr>');
@@ -81,7 +84,7 @@ if(frame.length){//index
 		var sys_lvl_val = sys_lvl_progress.find('.ui-progressbar-value');
 		sys_lvl_val.css('background-image', 'url('+chrome.extension.getURL('lib/img/'+lvl_image[level])+')');
 		
-		lottery.after(sys_lvl_holder);
+		lottery.parent().after($('<p>').append(sys_lvl_holder));
 		$('#web_status').remove();
 	}
 }
