@@ -1,6 +1,6 @@
 ﻿{
  "name": "交通大學選課系統Plus",
- "version": "1.2.3",
+ "version": "1.2.4",
  "description": "大大美化選課系統，提供自動填寫問卷功能",
  "icons" : {
    "16" : "icon16.png",
