@@ -15,61 +15,61 @@
   },
   "content_scripts": [
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/TeachPoll/question.asp"],
+    "matches" : ["*://course.nctu.edu.tw/TeachPoll/question.asp"],
 	"js" : ["callfill.js"],
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/*"],
+    "matches" : ["*://course.nctu.edu.tw/*"],
 	"css" : ["lib/jqueryui/css/sunny/jquery-ui-1.9.2.custom.css","styles.css"],
 	"js" : ["jquery.js","preload.js","lib/jqueryui/js/jquery-ui-1.9.2.custom.min.js"],
 	"run_at" : "document_start",
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/"],
+    "matches" : ["*://course.nctu.edu.tw/"],
     "js" : ["toindex.js"]
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/getSafeCode.asp"],
+    "matches" : ["*://course.nctu.edu.tw/getSafeCode.asp"],
     "js" : ["lib/fancybtn.js","pagejs/getSafeCode.js"],
     "all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/index.asp"],
+    "matches" : ["*://course.nctu.edu.tw/index.asp"],
     "js" : ["skip.js","lib/cookie.js","pagejs/index.js","lib/fancybtn.js"],
     "css": ["pagecss/index.css"]
   },
   {
-  	"matches" : ["*://cos.adm.nctu.edu.tw/inHelp.asp"],
+  	"matches" : ["*://course.nctu.edu.tw/inHelp.asp"],
 	"js" : ["pagejs/inHelp.js","pagejs/inHelp/cufon-yui.js","pagejs/inHelp/arial.js","pagejs/inHelp/cuf_run.js"],
 	"css" : ["pagecss/inHelp.css"],
 	"all_frames":true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/inMenu.asp"],
+    "matches" : ["*://course.nctu.edu.tw/inMenu.asp"],
 	"js" : ["pagejs/inMenu.js"],
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/inTitle.asp"],
+    "matches" : ["*://course.nctu.edu.tw/inTitle.asp"],
 	"css" : ["pagecss/inTitle.css"],
 	"js" : ["pagejs/inTitle.js"],
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/Course/History/adList.ASP/DISABLED"],
+    "matches" : ["*://course.nctu.edu.tw/Course/History/adList.ASP/DISABLED"],
 	"css" : ["jquery/tipTip.css" ,"pagecss/adList.css" ],
 	"js"  : ["jquery/jquery.tipTip.js" ,"pagejs/adList.js"],
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/Course/History/","*://cos.adm.nctu.edu.tw/Course/History/index.asp"],
+    "matches" : ["*://course.nctu.edu.tw/Course/History/","*://course.nctu.edu.tw/Course/History/index.asp"],
 	"js"  : ["pagejs/History/index.js"],
 	"all_frames" : true
   },
   {
-    "matches" : ["*://cos.adm.nctu.edu.tw/adNow.asp"],
+    "matches" : ["*://course.nctu.edu.tw/adNow.asp"],
 	"js"  : ["lib/cookie.js","pagejs/adNow.js"],
 	"all_frames" : true
   }
